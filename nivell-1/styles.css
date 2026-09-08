@@ -1,0 +1,90 @@
+/*body {
+    background-color: black;
+       max-width: 1200px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+}*/
+.bodyWrapper {
+    background-color: black;
+    max-width: 1200px;
+    padding: 1em;
+}
+.section {
+    box-sizing: border-box;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: grey;
+}
+.nav-bar div {
+    display: flex;
+    align-items: center;
+    margin: 0.5em;
+    height: 2em;
+}
+.background-red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.bannerWrapper {
+    background-color: orange;
+    width: 100%;
+    height: fit-content;
+}
+.banner {
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+}
+.articleSectionWrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    padding: 0;
+}
+.articlesSection {
+    background-color: grey;
+    padding: 1em;
+}
+.articlesWrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1.5em;
+}
+.article {
+    display: flex;
+    align-items: center;
+    height: 2em;
+    background-color: darkcyan;
+}
+.navegacion {
+    background-color: lightskyblue;
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+.publicidadWrapper {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+.publicidad {
+    margin-bottom: 1em;
+}
+.footerWrapper {
+    background-color: lightyellow;
+    width: 100%;
+}
