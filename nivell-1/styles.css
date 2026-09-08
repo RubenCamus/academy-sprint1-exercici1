@@ -88,3 +88,16 @@
     background-color: lightyellow;
     width: 100%;
 }
+@media (min-width:451px) and (max-width: 999px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+    }
+    .articleSectionWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .publicidadWrapper {
+        margin-top: 1em;
+    }
+}
