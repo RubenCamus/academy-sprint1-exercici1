@@ -20,12 +20,12 @@
 .nav-bar {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
+    gap: 1em;
     background-color: grey;
 }
 .nav-bar div {
     display: flex;
     align-items: center;
-    margin: 0.5em;
     height: 2em;
 }
 .background-red {
