@@ -144,6 +144,7 @@
     column-count: 2;
     column-gap: 1em;
     font-size: 0.75em;
+    overflow: hidden;
 }
 #image-sakura {
     background-image: url('./public/sakura.jpg');
@@ -202,6 +203,29 @@
     .nav-bar {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-section {
+        background-position: 50% 50%;
+    }
+    .logo {
+        width: 2em;
+        height: 0.5em;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-text {
+        font-size: 2em;
+    }
+    .navegacion p {
+        font-size: 12px;
+    }
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
     }
     .articleSectionWrapper {
         display: flex;
@@ -212,6 +236,26 @@
     }
 }
 @media (max-width: 450px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-section {
+        background-position: 50% 50%;
+    }
+    .logo {
+        width: 2em;
+        height: 0.5em;
+    }
+    .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .banner-text {
+        font-size: 1.5em;
+    }
     .nav-bar {
             display: flex;
             flex-direction: column;
@@ -230,5 +274,8 @@
         }
         .publicidad {
             height: 2em;
+        }
+        .navegacion p {
+            font-size: 10px;
         }
 }
